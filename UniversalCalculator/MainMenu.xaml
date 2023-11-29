@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Calculator.MainMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="937" d:DesignHeight="679">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="127" Margin="87,30,0,0" Text="Universal Calculator" TextWrapping="Wrap" VerticalAlignment="Top" Width="722" FontSize="72"/>
+        <Button Content="Maths Calculator" Margin="278,171,0,0" VerticalAlignment="Top" Height="84" Width="246" FontSize="24"/>
+        <Button Content="Mortgage Calculator" Margin="278,300,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.368,0.641" Height="71" Width="246" FontSize="24"/>
+        <Button Content="Currency Converter" Margin="278,411,0,0" VerticalAlignment="Top" Height="67" Width="246" FontSize="24"/>
+        <Button Content="Exit" Margin="278,519,0,0" VerticalAlignment="Top" Height="70" Width="246" FontSize="24"/>
+        <Image x:Name="abacus" HorizontalAlignment="Left" Height="100" Margin="808,30,0,0" VerticalAlignment="Top" Width="100" Source="/images/abacus.PNG"/>
+
+    </Grid>
+</Page>
