@@ -13,8 +13,9 @@
         <Button x:Name="maths_calc_button" Content="Maths Calculator" Margin="278,171,0,0" VerticalAlignment="Top" Height="84" Width="246" FontSize="24" Click="maths_calc_button_Click"/>
         <Button x:Name="mortgage_calc_button" Content="Mortgage Calculator" Margin="278,300,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.368,0.641" Height="71" Width="246" FontSize="24" Click="mortgage_calc_button_Click"/>
         <Button x:Name="currency_convert_button" Content="Currency Converter" Margin="278,411,0,0" VerticalAlignment="Top" Height="67" Width="246" FontSize="24" Click="currency_convert_button_Click" />
-        <Button Content="Exit" Margin="278,519,0,0" VerticalAlignment="Top" Height="70" Width="246" FontSize="24"/>
+        <Button Content="Exit" Margin="278,599,0,0" VerticalAlignment="Top" Height="70" Width="246" FontSize="24"/>
         <Image x:Name="abacus" HorizontalAlignment="Left" Height="100" Margin="808,30,0,0" VerticalAlignment="Top" Width="100" Source="/images/abacus.PNG"/>
+        <Button x:Name="trip_calc_btn" Content="Trip Calculator" Height="67" Margin="278,503,0,0" VerticalAlignment="Top" Width="246" RenderTransformOrigin="-1.166,1.921" FontSize="24" Click="trip_calc_btn_Click" />
 
     </Grid>
 </Page>
