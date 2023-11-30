@@ -43,5 +43,10 @@ namespace Calculator
 			M = Tpr / Divisor;
 			month_repay_amount.Text = M.ToString("n2");
 		}
+
+		private void exit_button_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainMenu));
+		}
 	}
 }

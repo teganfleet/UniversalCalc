@@ -27,9 +27,19 @@ namespace Calculator
 			this.InitializeComponent();
 		}
 
-		private void Button_Click(object sender, RoutedEventArgs e)
+		private void currency_convert_button_Click(object sender, RoutedEventArgs e)
 		{
+			this.Frame.Navigate(typeof(CurrancyConverter));
+		}
 
+		private void mortgage_calc_button_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MortgageCalculator));
+		}
+
+		private void maths_calc_button_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainPage));
 		}
 	}
 }

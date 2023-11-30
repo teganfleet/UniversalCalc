@@ -23,7 +23,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="265,460,0,0" Text="Monthly Repayment $:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FlowDirection="RightToLeft"/>
         <TextBox x:Name="month_repay_amount" HorizontalAlignment="Left" Margin="496,456,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="218"/>
         <Button x:Name="calculate_button" Content="Calculate" Margin="445,515,0,0" VerticalAlignment="Top" FontSize="20" Click="calculate_button_Click" />
-        <Button x:Name="exit_button" Content="Exit" Margin="470,571,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.294,0.285"/>
+        <Button x:Name="exit_button" Content="Exit" Margin="470,571,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.294,0.285" Click="exit_button_Click"/>
 
     </Grid>
 </Page>
